@@ -1,0 +1,50 @@
+body{
+	background-color: #1a1a1a !important;
+	color: white;
+}
+h1 {
+	font-size: 30pt;
+}
+h2{
+	font-size: 25pt;
+}
+h3{
+	font-size: 20pt;
+}
+
+.profile{
+	max-height: 250px;
+	border: 10px solid #1a1a1a;
+}
+
+.profile-image{
+	margin-top: -120px;
+}
+
+.quote{
+	color: white;
+	text-align: center;
+	margin-top: 5%;
+	font-size: 47pt;
+}
+
+.title{
+	margin-top: 90px;
+}
+
+.title h1{
+	margin-bottom: 0;
+}
+
+.title .career{
+	color: #CFCFCF;
+  	margin-top: -19px;
+  	font-size: 14pt;
+  	margin-left: 10px;
+}
+
+.parallax-container{
+	border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+	border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
