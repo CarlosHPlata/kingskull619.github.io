@@ -7,6 +7,7 @@
 	<link href="public/css/app.css" rel="stylesheet">
 	<link href="public/css/materialize.min.css" rel="stylesheet">
 	<link href="public/css/custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
 </head>
 
 <body>
@@ -46,20 +47,249 @@
     
 
 	<div class="container">
-		<h1>Hola Mundo</h1>
+		<div class="row" id="about-me">
+			<div class="col-md-12">
+				<h1>Hola Mundo</h1>
 
-		<p>
-			Mi nombre es Carlos, soy un ingeniero de software en proceso de graduación, con conocimientos en varios lenguajes, y bases para seguir metodologías, modelos y estándares para el desarrollo de software, así como para la administración de cada fase de desarrollo de un proyecto.
-		</p>
-		<p>
-			Me considero una persona constante la cual preferentemente le gusta trabajar de manera independiente ya que me permite explotar mi creatividad; sin embargo soy capaz de trabajar de manera efectiva en un equipo, en los cuales frecuentemente me gusta tomar el liderazgo. <br>
-			Suelo ser ordenado y limpio cuando de trabajo se trata, siento que todo lo que se desarrolla debe tener un correcto equilibrio entre el desarrollo ágil y el arduo trabajo de documentación de un desarrollo, partiendo desde la raíz, un código limpio.
-		</p>
-		<p>
-			Me encanta programar, muchas veces lo hago en mis ratos libres como pasatiempo, prueba de esto es esta página en sí misma; programar, me permite desarrollar ideas y llevarlas a la realidad.
+				<p>
+					Mi nombre es Carlos, soy un ingeniero de software en proceso de graduación, con conocimientos en varios lenguajes, y bases para seguir metodologías, modelos y estándares para el desarrollo de software, así como para la administración de cada fase de desarrollo de un proyecto.
+				</p>
+				<p>
+					Me considero una persona constante la cual preferentemente le gusta trabajar de manera independiente ya que me permite explotar mi creatividad; sin embargo soy capaz de trabajar de manera efectiva en un equipo, en los cuales frecuentemente me gusta tomar el liderazgo. <br>
+					Suelo ser ordenado y limpio cuando de trabajo se trata, siento que todo lo que se desarrolla debe tener un correcto equilibrio entre el desarrollo ágil y el arduo trabajo de documentación de un desarrollo, partiendo desde la raíz, un código limpio.
+				</p>
+				<p>
+					Me encanta programar, muchas veces lo hago en mis ratos libres como pasatiempo, prueba de esto es esta página en sí misma; programar, me permite desarrollar ideas y llevarlas a la realidad.
 
-		</p>
+				</p>
+			</div>
+		</div>
+
+
+		<div class="row" id="basic-info">
+			<h1>Informaci&oacute;n basica</h1>
+
+			<div class="col-md-6">
+				<span class="tgrey">
+					/* <br>
+					*<span class="torange"> @return </span> Idiomas<br>
+					*/
+				</span> 
+				<br>
+				<span style="color:#349bde">public function</span> 
+				<span style="color:#2ECC71">getIdiomas</span> 
+				( ) { <br>
+					<div class="tab">
+						<span class="torange">return</span> [ 
+							<div class="tab">
+								<span class="tyellow">"Ingles"</span> <span class="torange"> => </span> <span class="tyellow">"Competencia media"</span>,
+							</div>
+							 <div class="tab">
+							 	<span class="tyellow">"Español"</span> <span class="torange">=></span> <span class="tyellow">"Nativo"</span>  
+							 </div>
+						]; <br>
+					</div>
+				}
+
+				<br> <br> <br>
+
+				<span class="tgrey">
+					/* <br>
+					*<span class="torange"> @return </span> Fecha de nacimiento <br>
+					*/
+				</span> 
+				<br>
+				<span style="color:#349bde">public function</span> 
+				<span style="color:#2ECC71">getFechaDeNacimiento</span> 
+				( ) { <br>
+					<div class="tab">
+						<span class="torange">return new</span> <span class="tblue">Date</span> ( <span class="tyellow">"30 de Julio de 1993"</span> ); <br>
+					</div>
+				}
+
+				<br> <br> <br>
+
+				<span class="tgrey">
+					/* <br>
+					*<span class="torange"> @return </span> Lugar de vivienda <br>
+					*/
+				</span> 
+				<br>
+				<span style="color:#349bde">public function</span> 
+				<span style="color:#2ECC71">getLugarVivienda</span> 
+				( ) { <br>
+					<div class="tab">
+						<span class="torange">echo</span> <span class="tyellow">"Mérida, Yucatán"</span>; <br>
+					</div>
+				}
+			</div>
+
+			<div class="col-md-6">
+				<span class="tgrey">
+					/* <br>
+					*<span class="torange"> @return </span> Estado civil <br>
+					*/
+				</span> 
+				<br>
+				<span style="color:#349bde">public function</span> 
+				<span style="color:#2ECC71">getEstadoCivil</span> 
+				( ) { <br>
+					<div class="tab">
+						<span class="torange">return $this->ESTADO_SOLTERO</span> ; <br>
+					</div>
+				}
+
+				<br> <br> <br>
+
+				<span class="tgrey">
+					/* <br>
+					*<span class="torange"> @return </span> Disponibilidad de Viajar <br>
+					*/
+				</span> 
+				<br>
+				<span style="color:#349bde">public function</span> 
+				<span style="color:#2ECC71">puedeViajar</span> 
+				( ) { <br>
+					<div class="tab">
+						<span class="torange">return</span> <span class="tgreen">TRUE</span>; <br>
+					</div>
+				}
+			</div>
+		</div>
+		
+		
+
+		<div class="row" id="stundet">
+			<h1>Antecedentes Acad&eacute;micos</h1>
+
+			<div class="prompt">
+				<div class="command">
+					>_ Universidad Autónoma de Yucatán Facultad de Matemáticas :~$
+					<div class="tab tgrey">
+						* Licenciatura en Ingenier&iacute;a de Software (Proceso de titulaci&oacute;n) <br>
+						* Periodo: 2011 - Actualidad
+					</div>
+				</div>
+				<div class="command">
+					>_ Escuela Preparatoria Estatal Num. 3 Ctm :~$
+					<div class="tab tgrey">
+						* Preparatoria <br>
+						* Periodo: 2008 - 2011 &#8718;
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row" id="exp">
+			<h1>Experiencia laboral</h1>
+
+			<div class="prompt">
+				<div class="command">
+					>_ Desarrollador web y aplicaciones moviles :~$ 
+					<div class="tab tgrey">
+						* NAVEGANTE &emsp; [go: <a href="http://navegantes.mx/">page</a>]<br>
+						* Periodo: sep 2014 - Actualidad
+					</div>
+				</div>
+				<div class="command">
+					>_ Practicante como Desarrollador web :~$
+					<div class="tab tgrey">
+						* Responsabilidad Digital &emsp; [go: <a href="http://www.responsabilidaddigital.org/">page</a>]<br>
+						* Periodo: Feb 2014 - Jun 2014 &#8718;
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row" id="reconocimientos">
+			<h1> Reconocimientos </h1>
+			<p>
+				<span class="tgreen">@include(</span> Segundo Lugar Startup Weekend Mérida 2014 <span class="tgreen">)</span></span>
+				<div class="tab tgrey">
+					<span class="tgreen">{{</span> 54 horas seguidas para desarrollar un Startup con fines tecnologicos; se desarroll&oacute; una aplicación demostrativa para el monitoreo y cuidado de automoviles. <span class="tgreen">}}</span>
+				</div>
+			</p>
+		</div>
+
+
+		<div class="row" id="apt">
+			<div class="row">
+				<h1>Aptitudes y Habilidades</h1>
+				<div class="col-md-6">
+					<div class="row">
+						<span class="torange">define </span> lenguajes de programaci&oacute;n 
+						<div class="tab">
+							<ul>
+								<li>PHP 5 &emsp; <span class="small"> < ?<span class="tblue">php</span>?> </span> </li>
+								<li>HTML 5 &emsp; <span class="small"> < <span class="torange">tag </span> /> </span></li>
+								<li>JavaScript &emsp; <span class="small"><span class="torange">alert</span>( <span class="tyellow">"text"</span> ); </span></li>
+								<li>Java &emsp; <span class="small"> <span class="tblue">import</span> java.util; </span></li>
+								<li>C++ &emsp; <span class="small"> <span class="tblue">#include</span> < stdio.h > </span> </li>
+								<li>CSS &emsp; <span class="small"> <span class="tgreen">.class</span>{} </span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<span class="torange">define </span> Frameworks, librerias, pluggins, estandares
+					<div class="tab">
+						<ul>
+							<li>JSON &emsp; <span class="small"> {var: "value"}</span> </li>
+							<li>JQuery &emsp; <span class="small"> <span class="tblue">$</span>(<span class="tyellow">".class"</span>) </span> </li>
+							<li>Bootstrap 3 &emsp; <span class="small"> <span class="torange">col-md-12</span> </span> </li>
+							<li>Hibernate &emsp; <span class="small"> <span class="tblue">entitie</span> </span></li>
+							<li>CodeIgniter &emsp; <span class="small"> MVC </span> </li>
+							<li>Laravel 5 &emsp; <span class="small"> routes.php </span> </li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 tgrey">
+					<span class="torange">define </span> Otros
+					<div class="tab">
+						<ul>
+							<li>Diseño grafico amateur</li>
+							<li>Edici&oacute;n de video amateur (sony vegas pro 8, after effects)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
 	</div>
+
+	<footer class="page-footer grey darken-4">
+          <div class="container ">
+            <div class="row">
+              <div class="col-md-4">
+              	<i class="fa fa-envelope-o"></i> carlos.ksa21@gmail.com
+              </div>
+              <div class="col-md-4">      	
+              	<i class="fa fa-phone" style="margin-left:20px;"></i> 044 999 364 42 46</i>
+              </div>
+              <div class="col-md-4">
+              	<div class="social">
+              		<a href="http://www.facebook.com/carlos.herreraplata" class="btn-floating"><i class="fa fa-facebook-square"></i></a>
+              		<a href="http://mx.linkedin.com/pub/carlos-josé-herrera-plata/a4/596/bb6" class="btn-floating"><i class="fa fa-linkedin-square"></i></a>
+              	</div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+	            powered by: <a href="http://getbootstrap.com/" class="text-white">Bootstrap 3</a>, 
+	            <a href="http://materializecss.com/buttons.html" class="text-white">materializecss</a>,
+	            <a href="www.github.com" class="text-white">github</a>,
+	            <a href="http://fortawesome.github.io/Font-Awesome/" class="text-white">fontawesome</a>
+            </div>
+          </div>
+ 	</footer>
 
 <!-- /////////////////////scripts///////////////////////////////////////////// -->
 

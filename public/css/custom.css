@@ -3,6 +3,12 @@ body{
 	color: white;
 	font-size: 14pt;
 }
+
+pre{
+	background-color: #1a1a1a !important;
+	  border: none;
+	  color: white;
+}
 h1 {
 	font-size: 30pt;
 }
@@ -49,3 +55,47 @@ h3{
 	border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
 
+.tgrey{
+	color:#B0B0B0;
+}
+
+.torange{
+	color:#d9493a;
+}
+
+.tgreen{
+	color:#2ECC71;
+}
+
+.tblue{
+	color:#349bde;
+}
+.tyellow{
+	color:#e5bd12;
+}
+
+.tab{
+	  margin-left: 40px;
+}
+.prompt{
+	background-color: rgb(19, 19, 19);
+	padding: 30px;
+	border-radius: 10px;
+	border: 1px solid rgba(142, 141, 141, 0.39);
+}
+.command{
+	margin-bottom: 40px;
+}
+
+.small {
+  font-size: 8pt;
+  opacity: 0.15;
+}
+
+.social{
+	float: right;
+}
+.footer-copyright{
+	font-size: 10pt;
+	opacity: 0.5;
+}
