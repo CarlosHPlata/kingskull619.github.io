@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Hello Im Carlos</title>
+	<link href="public/css/app.css" rel="stylesheet">
+	<link href="public/css/materialize.min.css" rel="stylesheet">
+	<link href="public/css/custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
+</head>
+
+<body>
+
+	<div class="parallax-container">
+		<div class="quote">
+			<p> 
+				<span style="color:#f1c411" >{</span> 
+				code is a <span style="color:#1ec5e9">document</span> 
+				<span style="color:#f1c411" >}</span>
+			</p>
+			<p>
+				write it <span style="color:#349bde">thinking</span>  that someone will <span style="color:#e5bd12">read</span> it at some point,
+			</p>
+			<p>
+				that person could be <span style="color:#d9493a">you</span>
+			</p>
+		</div>
+      <div class="parallax"><img src="public/images/parallax1.jpg"></div>
+    </div>
+
+    <div class="profile-image container">
+    	<div class="row">
+    		<div class="col-md-3 col-sm-12">
+    			<img src="public/images/perfil.jpg" class="img-responsive img-circle profile" alt="">
+    		</div>
+    		<div class="col-md-8 col-sm-11 title">
+    			<h1>Carlos Jos&eacute; Herrera Plata</h1>
+    			<p class="career">
+    				<span style="color:#d9493a"><</span> Software Engineer <span style="color:#d9493a">/></span>
+    			</p>
+    		</div>
+    		<div class="col-md-1 col-sm-1">
+    			<a href=""><span class="pull-right" style="  background-color: #d9493a;margin-top: 100px;padding: 10px;">
+    				<span style="color:white;">ESP</span>
+    			</span></a>
+    		</div>
+    	</div>
+
+    </div>
+
+    
+
+	<div class="container">
+		<div class="row" id="about-me">
+			<div class="col-md-12">
+				<h1>Hello World!</h1>
+
+				<p>
+					Hi, my name is Carlos, I was born and live in Yucatán, México; I'm a Software Engineer on process to get my graduation degree; with knowledge in many languages and bases to follow advanced software process methodologies, models and standards, and also the management of each step of a project development.
+				</p>
+				<p>
+					I consider myself like a hardworking person, who can adapt to work alone or in a team, often i like to get the leadership of a team and manage projects; i believe that programing, is how i found the way to express my creativity and do everything i ever think. <br>
+					I often be consistent and clean when i work with code, i think, every software needs to have a balance between agile development and a ordered documentation, because, code is like writing an history, when you share your code you have to expect that the person who going to read it, will be able to understand it, so, yes, code, is a document.
+				</p>
+				<p>
+					I love to program, so many times i do it on my free time, like a hobby, this is a funny proof about what I'm talking about.
+
+				</p>
+			</div>
+		</div>
+
+
+		<div class="row" id="basic-info">
+			<h1>Basic information</h1>
+
+			<div class="col-md-6">
+				<span class="tgrey">
+					/* <br>
+					*<span class="torange"> @return </span> Languages<br>
+					*/
+				</span> 
+				<br>
+				<span style="color:#349bde">public function</span> 
+				<span style="color:#2ECC71">getLanguages</span> 
+				( ) { <br>
+					<div class="tab">
+						<span class="torange">return</span> [ 
+							<div class="tab">
+								<span class="tyellow">"Englishs"</span> <span class="torange"> => </span> <span class="tyellow">"mid-level professional"</span>,
+							</div>
+							 <div class="tab">
+							 	<span class="tyellow">"Espanish"</span> <span class="torange">=></span> <span class="tyellow">"Native"</span>  
+							 </div>
+						]; <br>
+					</div>
+				}
+
+				<br> <br> <br>
+
+				<span class="tgrey">
+					/* <br>
+					*<span class="torange"> @return </span> Birth date <br>
+					*/
+				</span> 
+				<br>
+				<span style="color:#349bde">public function</span> 
+				<span style="color:#2ECC71">getBirthDate</span> 
+				( ) { <br>
+					<div class="tab">
+						<span class="torange">return new</span> <span class="tblue">Date</span> ( <span class="tyellow">"July 30th, 1993"</span> ); <br>
+					</div>
+				}
+
+				<br> <br> <br>
+
+				<span class="tgrey">
+					/* <br>
+					*<span class="torange"> @return </span> Dwelling place <br>
+					*/
+				</span> 
+				<br>
+				<span style="color:#349bde">public function</span> 
+				<span style="color:#2ECC71">getDwelling</span> 
+				( ) { <br>
+					<div class="tab">
+						<span class="torange">echo</span> <span class="tyellow">"Yucatán, México"</span>; <br>
+					</div>
+				}
+			</div>
+
+			<div class="col-md-6">
+				<span class="tgrey">
+					/* <br>
+					*<span class="torange"> @return </span> MaritalStatus <br>
+					*/
+				</span> 
+				<br>
+				<span style="color:#349bde">public function</span> 
+				<span style="color:#2ECC71">getMaritalStatus</span> 
+				( ) { <br>
+					<div class="tab">
+						<span class="torange">return $this->SINGLE</span> ; <br>
+					</div>
+				}
+
+				<br> <br> <br>
+
+				<span class="tgrey">
+					/* <br>
+					*<span class="torange"> @return </span> availability to travel <br>
+					*/
+				</span> 
+				<br>
+				<span style="color:#349bde">public function</span> 
+				<span style="color:#2ECC71">canTravel</span> 
+				( ) { <br>
+					<div class="tab">
+						<span class="torange">return</span> <span class="tgreen">TRUE</span>; <br>
+					</div>
+				}
+			</div>
+		</div>
+		
+		
+
+		<div class="row" id="stundet">
+			<h1>Academic history</h1>
+
+			<div class="prompt">
+				<div class="command">
+					>_ Universidad Autónoma de Yucatán Facultad de Matemáticas :~$
+					<div class="tab tgrey">
+						* Software Engineering (Proceso de titulaci&oacute;n) <br>
+						* 2011 - Now
+					</div>
+				</div>
+				<div class="command">
+					>_ Escuela Preparatoria Estatal Num. 3 Ctm :~$
+					<div class="tab tgrey">
+						* High School <br>
+						* 2008 - 2011 &#8718;
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row" id="exp">
+			<h1>Work experience</h1>
+
+			<div class="prompt">
+				<div class="command">
+					>_ Web applications and Android developer :~$ 
+					<div class="tab tgrey">
+						* NAVEGANTE &emsp; [go: <a href="http://navegantes.mx/">page</a>]<br>
+						* Sep 2014 - Now
+					</div>
+				</div>
+				<div class="command">
+					>_ intern, Web developer :~$
+					<div class="tab tgrey">
+						* Responsabilidad Digital &emsp; [go: <a href="http://www.responsabilidaddigital.org/">page</a>]<br>
+						* Feb 2014 - Jun 2014 &#8718;
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row" id="reconocimientos">
+			<h1> Awards </h1>
+			<p>
+				<span class="tgreen">@include(</span> Second place on Startup Weekend Mérida 2014 <span class="tgreen">)</span></span>
+				<div class="tab tgrey">
+					<span class="tgreen">{{</span> 54 hours to develop a Startup, we develop an Android application that allows you to manage the status of your car.
+					<span class="tgreen">}}</span>
+				</div>
+			</p>
+		</div>
+
+
+		<div class="row" id="apt">
+			<div class="row">
+				<h1>Aptitudes y Habilidades</h1>
+				<div class="col-md-6">
+					<div class="row">
+						<span class="torange">define </span> programing languages
+						<div class="tab">
+							<ul>
+								<li>PHP 5 &emsp; <span class="small"> < ?<span class="tblue">php</span>?> </span> </li>
+								<li>HTML 5 &emsp; <span class="small"> < <span class="torange">tag </span> /> </span></li>
+								<li>JavaScript &emsp; <span class="small"><span class="torange">alert</span>( <span class="tyellow">"text"</span> ); </span></li>
+								<li>Java &emsp; <span class="small"> <span class="tblue">import</span> java.util; </span></li>
+								<li>C++ &emsp; <span class="small"> <span class="tblue">#include</span> < stdio.h > </span> </li>
+								<li>CSS &emsp; <span class="small"> <span class="tgreen">.class</span>{} </span></li>
+								<li>Android &emsp; <span class="small tgreen">context.R.id.androidtxt</span> </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<span class="torange">define </span> Frameworks, APIS, pluggins, standards
+					<div class="tab">
+						<ul>
+							<li>JSON &emsp; <span class="small"> {var: "value"}</span> </li>
+							<li>JQuery &emsp; <span class="small"> <span class="tblue">$</span>(<span class="tyellow">".class"</span>) </span> </li>
+							<li>Bootstrap 3 &emsp; <span class="small"> <span class="torange">col-md-12</span> </span> </li>
+							<li>Hibernate &emsp; <span class="small"> <span class="tblue">entitie</span> </span></li>
+							<li>CodeIgniter &emsp; <span class="small"> MVC </span> </li>
+							<li>Laravel 5 &emsp; <span class="small"> routes.php </span> </li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 tgrey">
+					<span class="torange">define </span> Others
+					<div class="tab">
+						<ul>
+							<li>amateur graphic design</li>
+							<li>amateur video editing (sony vegas pro 8, after effects)</li>
+							<li>Alfa of my own MVC framework with PHP: <a href="http://github.com/kingskull619/mvc" target="_blank">Silver Coding</a></li>
+							<li>Know more about my personal projects here: <a href="http://github.com/kingskull619?tab=repositories" target="_blank">Otros Proyectos</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+	<footer class="page-footer grey darken-4">
+          <div class="container ">
+            <div class="row">
+              <div class="col-md-4">
+              	<i class="fa fa-envelope-o"></i> carlos.ksa21@gmail.com
+              </div>
+              <div class="col-md-4">      	
+              	<i class="fa fa-phone" style="margin-left:20px;"></i> 044 999 364 42 46</i>
+              </div>
+              <div class="col-md-4">
+              	<div class="social">
+              		<a href="http://www.facebook.com/carlos.herreraplata" class="btn-floating" target="_blank"><i class="fa fa-facebook-square"></i></a>
+              		<a href="http://mx.linkedin.com/pub/carlos-josé-herrera-plata/a4/596/bb6" class="btn-floating" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+              	</div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+	            powered by: <a href="http://getbootstrap.com/" class="text-white">Bootstrap 3</a>, 
+	            <a href="http://materializecss.com/buttons.html" class="text-white">materializecss</a>,
+	            <a href="www.github.com" class="text-white">github</a>,
+	            <a href="http://fortawesome.github.io/Font-Awesome/" class="text-white">fontawesome</a>
+            </div>
+          </div>
+ 	</footer>
+
+<!-- /////////////////////scripts///////////////////////////////////////////// -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="public/js/materialize.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	      $('.parallax').parallax();
+	    });
+</script>
+
+</body>
+</html>
