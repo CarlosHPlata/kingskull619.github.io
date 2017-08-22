@@ -19,6 +19,24 @@ h3{
 	font-size: 20pt;
 }
 
+hr {
+	border-color: rgba(51, 51, 51, 0.25);
+  margin-top: 50pt;
+}
+
+.header {
+	width: 100%;
+	height: 300pt;
+	overflow: hidden;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+	border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.header-image {
+	width: 100%;
+	margin-top: -700px;
+}
+
 .profile{
 	max-height: 250px;
 	border: 10px solid #1a1a1a;
@@ -55,23 +73,79 @@ h3{
 	border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.tgrey{
+.tgrey,
+#portfolio .portfolio-card .content ul.tgrey li a {
 	color:#B0B0B0;
 }
 
-.torange{
+.torange,
+#portfolio .portfolio-card .content ul.torange li a {
 	color:#d9493a;
 }
 
-.tgreen{
+.tgreen,
+#portfolio .portfolio-card .content ul.tgreen li a {
 	color:#2ECC71;
 }
 
-.tblue{
+.tblue,
+#portfolio .portfolio-card .content ul.tblue li a {
 	color:#349bde;
 }
-.tyellow{
+
+.tyellow,
+#portfolio .portfolio-card .content ul.tyellow li a {
 	color:#e5bd12;
+}
+
+.opacity50{
+	opacity: 0.5;
+}
+.opacity30{
+	opacity: 0.3;
+}
+
+
+
+#portfolio .portfolio-card .circle {
+		width: 90pt;
+	  height: 90pt;
+		border-radius: 100%;
+    border: 10px solid #1a1a1a;
+		display: table;
+    margin: 0 auto;
+	  z-index: 2;
+	  position: relative;
+}
+
+#portfolio .portfolio-card .circle .inner-circle {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	border: 2px solid #000;
+	background-color: #2d2d2d;
+}
+
+#portfolio .portfolio-card h2 {
+	margin: 0;
+  text-align: center;
+	padding-top: 15pt;
+}
+
+#portfolio .portfolio-card .content {
+	background-color: #2d2d2d;
+	border: 2px solid #000;
+  border-radius: 10pt;
+  padding: 15pt;
+	margin-top: -45pt;
+	padding-top: 50pt;
+	min-height: 200pt;
+  z-index: 1;
+  position: relative;
+}
+
+#portfolio .portfolio-card .content ul li {
+	text-align: center;
 }
 
 .tab{
@@ -85,6 +159,27 @@ h3{
 }
 .command{
 	margin-bottom: 40px;
+}
+.command > .tab > ol {
+	margin-left: 10pt;
+	border-left: 17pt solid #2d2d2d;
+	padding-top: 10pt;
+	padding-bottom: 10pt;
+}
+.command > .tab > ol > li {
+	margin-left: -28pt;
+	padding-left: 5pt;
+	color: rgb(19, 19, 19);
+}
+.command > .tab > ol > li > span {
+	color: #868686;
+}
+#about-me  ul  li {
+	list-style: circle;
+	color: #d93822;
+}
+#about-me  ul li span {
+	color: #fff;
 }
 
 .small {
