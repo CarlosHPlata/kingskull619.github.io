@@ -194,3 +194,24 @@ hr {
 	font-size: 10pt;
 	opacity: 0.5;
 }
+
+
+
+@media  (max-width: 1024px) {
+	.header-image {
+    width: 100%;
+    margin-top: -351px;
+	}
+
+	.profile-image {
+    margin-top: -81px;
+	}
+
+	.title h1 {
+    margin-top: 0;
+	}
+
+	.container{
+	    width: 85%;
+	}
+}
