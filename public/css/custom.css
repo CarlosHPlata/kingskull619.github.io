@@ -214,4 +214,8 @@ hr {
 	.container{
 	    width: 85%;
 	}
+
+	.command > .tab > ol > li {
+    margin-left: -18pt;
+	}
 }
