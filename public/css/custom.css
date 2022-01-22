@@ -105,7 +105,9 @@ hr {
 	opacity: 0.3;
 }
 
-
+.rappi {
+	margin-bottom: -10px;
+}
 
 #portfolio .portfolio-card .circle {
 		width: 90pt;
